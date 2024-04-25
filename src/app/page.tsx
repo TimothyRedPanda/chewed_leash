@@ -1,18 +1,9 @@
-import Image from "next/image";
+import Button from './components/Button'
 
 export default function Home() {
   return (
-    <main>
-      <div
-          className='flex min-h-svh
-                     bg-amber-500
-                     items-center
-                     justify-center
-                     font-mono
-                     text-3xl
-                     text-blue-600
-                     select-none'
-      >Coming Soon</div>
+    <main className="bg-[url('/red_panda.jpg')] bg-cover flex flex-col items-center justify-center min-h-screen bg-gray-100">
+      <Button text='Welcome'/>
     </main>
   );
 }
