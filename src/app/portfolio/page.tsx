@@ -1,8 +1,4 @@
 import Photo from '../components/Image'
-import harvey from '../../../public/Harvey.jpg'
-import jake from '../../../public/Jake.jpg'
-import dughall from '../../../public/Dughall.jpg'
-import yogi from '../../../public/Yogi.jpg'
 
 export default function Home() {
     return (
@@ -20,19 +16,19 @@ export default function Home() {
         overflow-x-hidden
         ">
             <Photo
-                src={harvey}
+                src='../../../public/Harvey.jpg'
                 alt='alaskan malamute photo'
             />
             <Photo
-                src={jake}
+                src='../../../public/Jake.jpg'
                 alt='spaniel cross photo'
             />
             <Photo
-                src={dughall}
+                src='../../../public/Dughall.jpg'
                 alt='scottish terrier photo'
             />
             <Photo
-                src={yogi}
+                src='../../../public/Yogi.jpg'
                 alt='german shephard dog photo'
             />
         </main>
