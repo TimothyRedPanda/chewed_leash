@@ -1,4 +1,4 @@
-import Photo from '../components/Image'
+import Image from 'next/image'
 
 export default function Home() {
     return (
@@ -15,20 +15,32 @@ export default function Home() {
         justify-center
         overflow-x-hidden
         ">
-            <Photo
-                src='../../../public/Harvey.jpg'
+            <Image
+                src='/harvey.jpg'
+                layout='responsive'
+                width='100'
+                height='100'
                 alt='alaskan malamute photo'
             />
-            <Photo
-                src='../../../public/Jake.jpg'
+            <Image
+                src='/jake.jpg'
+                layout='responsive'
+                width='100'
+                height='100'
                 alt='spaniel cross photo'
             />
-            <Photo
-                src='../../../public/Dughall.jpg'
+            <Image
+                src='/dughall.jpg'
+                layout='responsive'
+                width='100'
+                height='100'
                 alt='scottish terrier photo'
             />
-            <Photo
-                src='../../../public/Yogi.jpg'
+            <Image
+                src='/yogi.jpg'
+                layout='responsive'
+                width='100'
+                height='100'
                 alt='german shephard dog photo'
             />
         </main>
