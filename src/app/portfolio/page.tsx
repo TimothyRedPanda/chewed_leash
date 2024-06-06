@@ -9,7 +9,7 @@ export default function Home() {
         grid-cols-1
         gap-2
         p-2
-        md:grid-cols-4
+        md:grid-cols-2
         lg:grid-cols-4
         bg-gray-100
         justify-center
